@@ -202,10 +202,13 @@ body {
 
 .home-sci {
     position: absolute;
-    bottom: 40px;
-    width: 170px;
+    bottom: 60px;
+    padding-left: 25px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
+    display:inline-block;
+    margin-right:2em;
 }
 
 .home-sci::before {
@@ -231,7 +234,7 @@ body {
     background: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 30px;
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
@@ -262,14 +265,14 @@ body {
 .home-imgHover {
     position: relative;
     top: 0;
-    right: -25px;
+    right: -100px;
     width: 500px;
     height: 100%;
     background: transparent;
     transition: 3s;
-    animation: manipActiveHover 0.1s forwards;
+    /*animation: manipActiveHover 0.1s forwards;*/
     animation-delay: 4s;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
 .home-imgHover:hover {
@@ -282,11 +285,11 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 125%;
+    width: 115%;
     height: 100%;
     background: #081b29;
     animation: showRight 1s ease forwards;
-    animation-delay: 3s;
+    animation-delay: 2.8s;
     z-index: 100;
 }
 
